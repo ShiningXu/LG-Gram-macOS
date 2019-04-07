@@ -244,13 +244,13 @@
 		<key>Debug</key>
 		<false/>
 		<key>DefaultVolume</key>
-		<string>MAC</string>
+		<string>7462F5BB-9116-372C-A656-BF9967872074</string>
 		<key>NoEarlyProgress</key>
 		<true/>
 		<key>Secure</key>
 		<false/>
 		<key>Timeout</key>
-		<integer>1</integer>
+		<integer>2</integer>
 		<key>XMPDetection</key>
 		<false/>
 	</dict>
@@ -268,6 +268,12 @@
 			<key>Inject</key>
 			<string>No</string>
 		</dict>
+		<key>Inject</key>
+		<false/>
+		<key>LpcTune</key>
+		<false/>
+		<key>NoDefaultProperties</key>
+		<false/>
 		<key>Properties</key>
 		<dict>
 			<key>PciRoot(0x0)/Pci(0x1f,0x3)</key>
@@ -341,6 +347,10 @@
 				</data>
 			</dict>
 		</dict>
+		<key>SetIntelBacklight</key>
+		<true/>
+		<key>SetIntelMaxBacklight</key>
+		<true/>
 		<key>USB</key>
 		<dict>
 			<key>AddClockID</key>
@@ -363,6 +373,8 @@
 			<string>Recovery</string>
 			<string>Windows</string>
 		</array>
+		<key>Language</key>
+		<string>en:0</string>
 		<key>Mouse</key>
 		<dict>
 			<key>DoubleClick</key>
@@ -381,14 +393,14 @@
 			<key>Legacy</key>
 			<false/>
 			<key>Linux</key>
-			<true/>
-			<key>Tool</key>
 			<false/>
+			<key>Tool</key>
+			<true/>
 		</dict>
 		<key>ScreenResolution</key>
 		<string>1920x1080</string>
 		<key>Theme</key>
-		<string>Hackintosh_ID</string>
+		<string>Minimalism</string>
 	</dict>
 	<key>Graphics</key>
 	<dict>
