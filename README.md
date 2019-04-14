@@ -13,7 +13,7 @@
 <h2><a id="user-content-关于wifi蓝牙的解决办法" class="anchor" aria-hidden="true" href="#关于wifi的解决办法"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>关于WiFi的解决办法：</h2>
 <p>   lg gram 有两个m.2槽位，可以通过m.2 Mkey转接卡，转接一张BCM94360cs2，可在某宝购买 （ps.拆机失去保修，谨慎操作）</p>
 <p>   或者使用USB网卡，打开内建网卡功能 </p>
-<p>   硬盘位M.2不带USB接口，故无法使用蓝牙，需要自己进行焊接到其他USB口上（需要焊接，难度较高） </p>
+<p>   硬盘位M.2不带USB接口，故无法使用蓝牙，需要自己进行焊接到其他USB口上（需要焊接，难度较高，具体方法可以私信我） </p>
 
 <h2><a id="user-content-已完成项目" class="anchor" aria-hidden="true" href="#已完成项目"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>目前完成：</h2>
 <ul>
@@ -33,4 +33,8 @@
 <li>耳机孔无输出，需要从自编译AppleALC；</li>
 <li>插入USB设备无法正常睡眠，需要重新制作SSDT-GPRW.aml 热补丁；</li>
 <li>需要制作热补丁屏蔽 Intel网卡和读卡器，进一步降低功耗；</li>
+</ul>
+<h2><a id="user-content-联系方式" class="anchor" aria-hidden="true" href="联系方式"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>联系方式：</h2>
+<ul>
+<li>WeChat ID:superpipi；</li>
 </ul>
