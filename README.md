@@ -3,13 +3,13 @@
 ## 电脑配置
 | 规格     |      详细信息                              |
 | -------- | ---------------------------------------- |
-| 型号 | LG Gram 13/14/15 Z980 （15需要自行定制USB口）   |
-| CPU   | 英特尔 酷睿 i5-8250U 处理器                 |
+| 型号     | LG Gram 13/14/15 Z980 （15需要自行定制USB口） |
+| CPU     | 英特尔 酷睿 i5-8250U 处理器                   |
 | 显卡     | UHD Graphics 620                           |
-| 内存     | 8GB + 16G镁光DDR4 2400MHz                 |
-| 硬盘     | Western Digital Black SN750 512GB SSD （建议使用Intel 670p）   |
-| 声卡     | Conexant CX8200                           |
-| 网卡     | 英特尔 无线 8265 （已替换为 BCM94360）        |
+| 内存     | 板载 8G + Micron 16G DDR4 2400MHz           |
+| 硬盘     | Intel SSD 760p series 512GB                |
+| 声卡     | Conexant CX8200                            |
+| 网卡     | 英特尔 无线 8265 （已替换为 BCM94360）         |
 
 
 ## 关于WiFi的解决办法：
