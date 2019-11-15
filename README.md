@@ -38,5 +38,9 @@
   - 无法使用FN 调节亮度（可自定义系统快捷键解决）
   - 插入电源后，电池显示电量短暂显示100%
 
+sudo kextunload /Library/Extensions/AppleRTL815XEthernet109.kext
+sudo kextunload /Library/Extensions/AppleRTL815XComposite109.kext
+sudo kextload /Library/Extensions/AppleRTL815XEthernet109.kext
+sudo kextload /Library/Extensions/AppleRTL815XComposite109.kext
 ## 联系方式
 ![avatar](https://github.com/ShiningXu/LG-Gram-macOS/blob/master/WechatIMG4.jpeg)
