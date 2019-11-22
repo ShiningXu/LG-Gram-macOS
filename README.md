@@ -1,4 +1,4 @@
-# macOS on LG Gram z980 series
+# macOS 10.15 Catalina on LG Gram z980 series
 ## 电脑配置
 | 规格     |      详细信息                               |
 | -------- | ----------------------------------------  |
