@@ -1,16 +1,20 @@
 # macOS 10.15 Catalina on LG Gram z980 series
 ## 电脑配置
-| 规格     |      详细信息                               |
-| -------- | ----------------------------------------  |
-| 型号     | LG Gram 13/14/15 Z980 （15需要自行定制USB口） |
-| CPU     | 英特尔 酷睿 i5-8250U 处理器                   |
-| 显卡     | UHD Graphics 620                           |
-| 内存     | 板载 8G + Micron 16G DDR4 2400MHz           |
-| 硬盘     | Intel SSD 760p series 512GB                |
-| 声卡     | Conexant CX8200                            |
-| 网卡     | 英特尔 无线 8265 （已替换为 BCM94360CS2）      |
-### 本项目不支持z990系列，990系列的朋友可以以此为模板，自行提取DSDT/SSDT替换，修改显卡注入参数、替换CPU相关kext
+| 规格     |      详细信息                                 |
+| --------| ----------------------------------------    |
+| 型号     | LG Gram 13/14/15 Z980 （15存需要自行定制USB口） |
+| CPU     | 英特尔 酷睿 i5-8250U 处理器                     |
+| 显卡     | UHD Graphics 620                             |
+| 内存     | 板载 8G + Micron 16G DDR4 2400MHz             |
+| 硬盘     | Intel SSD 760p series 512GB                  |
+| 声卡     | Conexant CX8200                              |
+| 网卡     | 英特尔 无线 8265 （已替换为 BCM94360CS2）        |
 
+### 触摸板的问题解决了，可以正常使用
+### 本项目不支持z990系列，请关注以下下路标
+    z990系列的同学请关注 https://github.com/capricornlee/LG-Gram13-Z990
+### 想尝试OpenCore的同学请关注（测试了一下目前bug比clover多点，还需要优化）
+    z980 OpenCore https://github.com/suzuke/LG-Gram-13z980-Opencore
 ## 关于WiFi的解决办法：
 ### 1、使用USB网卡
     使用免驱USB网卡（自行淘宝），打开内建网卡功能
@@ -21,6 +25,17 @@
   ![avatar](https://github.com/ShiningXu/LG-Gram-macOS/blob/master/bluetooth.png)
 ### 3、自带type-c网卡需要安装驱动
     请自行下载 https://github.com/ShiningXu/LG-Gram-macOS/blob/master/RTUNICv1.0.19.dmg
+
+## 进一步提升体验（强烈推荐）
+    解锁CFG Lock 开启Mac原生电源管理，DVMT开启64M，彻底根除偶尔卡死、频繁花屏的bug，降低整机功耗。
+    方法：使用RU.efi修改BIOS配置
+    完整教程可以参考，http://bbs.pcbeta.com/viewthread-1840558-1-1.html
+    提取BIOS不需要看，只需要看后半部分即可。
+    解锁CFG lock，找到 cpuSetup add:0x3c val: 1->0
+    解锁DVMT  ,找到 saSetup add:0xDF, val: 1->2
+
+    解锁后，请删除framebuffer-fbmem、framebuffer-stolenmem 两项显卡注入属性
+
 
 
 ## 目前完成
@@ -36,9 +51,6 @@
 
 ## 未解决问题
 - Intel网卡、SD读卡器、指纹，全球无解；
-- I2C触摸板：多指可用，单指会间歇失灵，已经确认是LG BIOS的问题无法解决，只能等待LG修复（可能永久无解）
 - 遗留小问题
   - 无法使用FN 调节亮度（需要定制dsdt懒得弄了，可自定义系统快捷键解决）%
 
-## 联系方式
-![avatar](https://github.com/ShiningXu/LG-Gram-macOS/blob/master/WechatIMG4.jpeg)
