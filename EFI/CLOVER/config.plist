@@ -155,30 +155,31 @@
 				AAAWWQ==
 				</data>
 				<key>AAPL,slot-name</key>
-				<string>Internal</string>
+				<string>Internal@0,2,0</string>
+				<key>AAPL00,override-no-connect</key>
+				<data>
+				AP///////wAGEHycAAAAAAAbAQSlHxFgAm+xp1VMniUM
+				UFQAAAABAQEBAQEBAQEBAQEBAQEBLjaAoHA4H0AwIDUA
+				Na4QAAAZAAAAAAAAAAAAAAAAAAAAAAAAAAAA/gBMRyBE
+				aXNwbGF5CiAgAAAA/gBMUDE0MFdGNy1TUEcxAF4=
+				</data>
 				<key>device-id</key>
 				<data>
 				FlkAAA==
 				</data>
+				<key>device_type</key>
+				<string>VGA compatible controller</string>
 				<key>enable-hdmi20</key>
 				<data>
 				AQAAAA==
 				</data>
+				<key>framebuffer-con1-alldata</key>
+				<data>
+				AQUJAAAIAACHAQAAAgQKAAAEAACHAQAA
+				</data>
 				<key>framebuffer-con1-enable</key>
 				<data>
 				AQAAAA==
-				</data>
-				<key>framebuffer-con1-type</key>
-				<data>
-				AAgAAA==
-				</data>
-				<key>framebuffer-con2-enable</key>
-				<data>
-				AQAAAA==
-				</data>
-				<key>framebuffer-con2-type</key>
-				<data>
-				AAQAAA==
 				</data>
 				<key>framebuffer-fbmem</key>
 				<data>
@@ -195,7 +196,7 @@
 				<key>hda-gfx</key>
 				<string>onboard-1</string>
 				<key>model</key>
-				<string>UHD Graphics 620</string>
+				<string>Intel HD Graphics 620</string>
 			</dict>
 		</dict>
 		<key>SetIntelBacklight</key>
@@ -354,6 +355,10 @@
 		<string>0x28</string>
 		<key>CsrActiveConfig</key>
 		<string>0x67</string>
+		<key>ROM</key>
+		<data>
+		lOxEHsO4
+		</data>
 	</dict>
 	<key>SMBIOS</key>
 	<dict>
@@ -361,10 +366,14 @@
 		<string>12/19/2018</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
+		<key>BiosVersion</key>
+		<string>MBP142.88Z.F000.B00.1812191256</string>
 		<key>Board-ID</key>
 		<string>Mac-CAD6701F7CEA0921</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
+		<key>BoardSerialNumber</key>
+		<string>C02739100J9HRPC1H</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -395,11 +404,17 @@
 		<string>MacBookPro14,2</string>
 		<key>ProductName-Comment</key>
 		<string>Using Haswell MacBookAir6,2 until Clover has support for KabyLake identifiers</string>
+		<key>SerialNumber</key>
+		<string>C02VG0H6HV2N</string>
+		<key>SmUUID</key>
+		<string>AB0B76EC-75FF-5E5B-A3AD-EC89491EC3B8</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
 	<key>SystemParameters</key>
 	<dict>
+		<key>CustomUUID</key>
+		<string>AB0B76EC-75FF-5E5B-A3AD-EC89491EC3B8</string>
 		<key>InjectKexts</key>
 		<string>Detect</string>
 		<key>InjectSystemID</key>
